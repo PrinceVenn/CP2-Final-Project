@@ -1,7 +1,7 @@
-# Computational Practices 2 Final Project 
+# Northern Lights
 
-### Northern Lights
 ## Artist Statement
+# With this piece, Koda Bryant combines his need for stimulation of the senses and his desire to explore and experiment with new and challenging medias. His work involves taking a simple idea and recreating it so that it may be physically interacted with and gives the viewer a chance to be aesthetically pleased.
 
 My idea is to create fully portable soft toy or shape that reacts to the amount of light in the enviroment around it by lighting up. I will attempt to give it different and interesting light patterns.
 
