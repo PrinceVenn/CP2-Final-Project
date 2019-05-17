@@ -8,27 +8,28 @@ My idea for this project was to create a glove that featured lights and could be
 
 ## Summary
 
-copy and paste from word doc
+For my final project, I wanted to work with sewable electronics and keep my idea as simple as possible to assure that I would be able to get it done on time. I had a lot of ideas that I ulitimetly simpled down until I ended up with my final. My first idea was to create a full body suit that would be covered in neo-pixels and was light sensative and reactive, but I figured that would be too much and I would run out of time, materials, and money. I decided against using a light sensor, since I had attempted to use it in a previous project with not great results, and ended up going with a motion/direction sensor that I had never used before. I changed it to just two formfitting gloves, then to one glove after some technical difficulties later in the semester. I ended up not being able to use the sensor that I included, but I was able to get the neopixels, wiring and code working, so I still count it as a success.
+
 
 ## Component Parts
 
-Flora - Wearable electronic platform: Arduino-compatible - v3 - 1
+Flora - Wearable electronic platform: Arduino-compatible - v3 - (1)
 
-Flora RGB Smart NeoPixel version 2 - 10
+Flora RGB Smart NeoPixel version 2 - (10)
 
-2 x 2032 Coin Cell Battery Holder - 6V output with On/Off switch - 1
+2 x 2032 Coin Cell Battery Holder - 6V output with On/Off switch - (1)
 
-4 CR2032 Lithium Coin Cell Batterys - 4 used in all
+4 CR2032 Lithium Coin Cell Batterys - (4 used in all)
 
-Stainless Thin Conductive Thread - 2 ply - 23 meter/76 ft - 3 spools 
+Stainless Thin Conductive Thread - 2 ply - 23 meter/76 ft - (3 spools)
 
-Sewing Needles (X)
+Sewing Needles (A box)
 
-Clear Nail Polish (X)
+Fray Check (1 bottle)
 
-Fabric (X)
+Fabric (1 medium black skin tight body suit)
 
-USB for conecting Flora to laptop (X)
+USB for conecting Flora to laptop (1)
 
 ## Challenges
 
@@ -36,9 +37,13 @@ finish
 
 ## Completed Work
 
-finish
+I ended up with one wearable glove that contained 10 neopixels, sewed on 
 
-## References and links (switch out)
+I have several codes.
+
+## References and links 
+
+FLORA Accelerometer (https://learn.adafruit.com/flora-accelerometer)
 
 Sewing with conductive thread (https://learn.adafruit.com/conductive-thread/projects)
 
@@ -48,11 +53,20 @@ More Neo-Pixel info (https://learn.adafruit.com/adafruit-neopixel-uberguide/best
 
 FLORA Info (https://learn.adafruit.com/getting-started-with-flora/overview)
 
-GEMMA Info (https://learn.adafruit.com/introducing-gemma)
+FLORA Sensors (https://learn.adafruit.com/flora-sensors)
 
-Light-Up Tie (Neo-Pixels, conductive thread, Flora, Sensor) (https://learn.adafruit.com/led-ampli-tie/battery-pouch-and-flora?view=all)
+Light-Up Tie (https://learn.adafruit.com/led-ampli-tie/battery-pouch-and-flora?view=all)
 
-Light Sensor (https://learn.adafruit.com/flora-lux-sensor)
+Citi Bike Helmet (https://learn.adafruit.com/citi-bike-helmet)
+
+Sparkle Skirt (https://learn.adafruit.com/sparkle-skirt/tools-and-supplies) 
+(I didnt find this example until way too late, this is pretty much what I wanted to do and it would have helped a lot.)
+
+GPS Jacket (https://learn.adafruit.com/flora-gps-jacket)
+
+Light Up Bowtie (https://learn.adafruit.com/led-sequin-bowtie)
+
+
 
 
 
