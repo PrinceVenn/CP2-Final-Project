@@ -1,61 +1,44 @@
 # Northern Lights
 
 ## Artist Statement
+
 ### With this piece, Koda Bryant combines his need for stimulation of the senses and his desire to explore and experiment with new and challenging medias. His work involves taking a simple idea and recreating it so that it may be physically interacted with and gives the viewer a chance to be aesthetically pleased.
 
-My idea is to create fully portable soft toy or shape that reacts to the amount of light in the enviroment around it by lighting up. I will attempt to give it different and interesting light patterns.
+My idea for this project was to create a glove that featured lights and could be interacted with in someway. 
 
 ## Summary
 
-The Comfort/Reaction Object/Toy is going to be a handheld cloth object that lights up. The object will be portable and entirely hand-made. The lights will switch back and forth between a number of different hues and brightnesses, and will change based off the light in the enviroment around the toy. I will be using sewable electronics so that it can be portable.
-
-The main idea of my project is to create an object that can sooth using color and knows when it is dark enough for it's color to be seen. The object will also, hypothetically, be able to be manipulated into changing its hue and brightness by the user. I will be using the flora Light sensor as my sensor.
+copy and paste from word doc
 
 ## Component Parts
 
-Flora - Wearable electronic platform: Arduino-compatible - v3 (X)
+Flora - Wearable electronic platform: Arduino-compatible - v3 - 1
 
-Adafruit GEMMA v2 - Miniature wearable electronic platform (X)
+Flora RGB Smart NeoPixel version 2 - 10
 
-Flora Lux Sensor - TSL2561 Light Sensor - v1.0 (X)
+2 x 2032 Coin Cell Battery Holder - 6V output with On/Off switch - 1
 
-Flora RGB Smart NeoPixel version 2 - Sheet of 20 (X)
+4 CR2032 Lithium Coin Cell Batterys - 4 used in all
 
-2 x 2032 Coin Cell Battery Holder - 6V output with On/Off switch (X)
-
-4 CR2032 Lithium Coin Cell Batterys (X)
-
-Stainless Thin Conductive Thread - 2 ply - 23 meter/76 ft (X)
+Stainless Thin Conductive Thread - 2 ply - 23 meter/76 ft - 3 spools 
 
 Sewing Needles (X)
 
 Clear Nail Polish (X)
 
-Sometype of Fabric (X)
+Fabric (X)
 
 USB for conecting Flora to laptop (X)
 
 ## Challenges
 
-I feel like the hardest part of this assignment for me was the coding of the lights and the intergration of the light sensors. I have experience with using conductive thread, sewable electronics and LED's together, but this will be my first time creating something using both coding and sewing. The coding for the light sensor was very complicated and I had a lot of trouble getting it to connect to the lights. I also had trouble with my timing because I had to re-sew the conductive thread whenever it got too loose, and this took up a lot of my time.
-I ended up losing my code in the end, so my light sensor is no longer in contact with my lights.
-
-
-## Timeline
-
-What did you do in each of the past five weeks?
-
-- Week 1: Write proposal
-- Week 2: Finished deciding on idea and started ordering parts that I needed.
-- Week 3: Practiced sewing with conductive thread, ordered different lights, Finalized the toy's design and create it.
-- Week 4: Make sure all lights work and are coded to work with the light sensor, tighten wires where needed.
-- Week 5: Present!
+finish
 
 ## Completed Work
 
-I'm not sure how to link images here, but the pictures are in this Repository.
+finish
 
-## References and links
+## References and links (switch out)
 
 Sewing with conductive thread (https://learn.adafruit.com/conductive-thread/projects)
 
