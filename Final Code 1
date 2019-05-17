@@ -1,0 +1,82 @@
+Working Glove Code
+
+#include <Adafruit_NeoPixel.h>
+#ifdef __AVR__
+  #include <avr/power.h>
+#endif
+
+#include <Wire.h>
+#include <Adafruit_Sensor.h>
+#include <Adafruit_LSM303.h>
+
+Adafruit_LSM303 lsm;
+
+// Which pin on the Arduino is connected to the NeoPixels?
+// On a Trinket or Gemma we suggest changing this to 1
+#define PIN            12
+
+// How many NeoPixels are attached to the Arduino?
+#define NUMPIXELS      10
+
+//Choose the brightness
+#define BRIGHTNESS 40
+
+//#define NORTH 0
+
+Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
+
+int delayval = 250; // delay for 1/4th of a second
+int n = 360;
+
+void setup() {
+  pixels.setBrightness(BRIGHTNESS);
+  pixels.begin(); // This initializes the NeoPixel library.
+
+//#ifndef ESP8266
+ // while (!Serial);     // will pause Zero, Leonardo, etc until serial console opens
+//#endif
+
+//Serial.begin(9600);
+//if (!lsm.begin())
+//{
+//    Serial.println("Oops ... unable to initialize the LSM303. Check your wiring!");
+//    while (1);
+//  } 
+}
+
+void loop() {
+//This is the code for the accelerometer that I had attached. It worked at first, but it stopped when I started changing things and I could not figure out how to fix it so I just phased it out.
+ // {
+//  lsm.read();
+  //Serial.print("Accel X: "); Serial.print((int)lsm.accelData.x); Serial.print(" ");
+  //Serial.print("Y: "); Serial.print((int)lsm.accelData.y);       Serial.print(" ");
+  //Serial.print("Z: "); Serial.println((int)lsm.accelData.z);     Serial.print(" ");
+  //Serial.print("Mag X: "); Serial.print((int)lsm.magData.x);     Serial.print(" ");
+ //Serial.print("Y: "); Serial.print((int)lsm.magData.y);         Serial.print(" ");
+ //Serial.print("Z: "); Serial.println((int)lsm.magData.z);       Serial.print(" ");
+  //delay(375);
+//}
+
+  for(int i=0;i<NUMPIXELS;i++){
+    
+    pixels.setPixelColor(i, pixels.Color(0,0,255)); // Blue
+   // pixels.setPixelColor(i, pixels.Color(0,150,0));// Green
+    pixels.setPixelColor(i+1, pixels.Color(127,127,127));// White
+    pixels.setPixelColor(i+2, pixels.Color(255,0,0));// Red
+   // pixels.setPixelColor(i+3, pixels.Color(60,100,127);
+    
+    delay(delayval);    
+    pixels.show(); // This sends the updated pixel color to the hardware.
+ 
+    
+
+    
+
+  
+
+
+  }
+}
+
+
+
