@@ -1,4 +1,4 @@
-# Northern Lights(WIP)
+# Northern Lights
 
 ## Artist Statement
 
@@ -33,13 +33,11 @@ USB for conecting Flora to laptop (1)
 
 ## Challenges
 
-finish
+The coding was the hardest part for me, since I was basicly trying to blend two different codes together. They would work well sepperately, but they would stop working once I put them together and I spent a lot of time trying to slowly bring them closer. I had to put a lot more time into figuring out the accelerometer's code than the neopixels code though. I also had a challenge using conductive thread even though I am pretty used to it. There were a couple sections where I had to go back and re-sew the pixels in place because thread was coming loose.
 
 ## Completed Work
 
-I ended up with one wearable glove that contained 10 neopixels, sewed on 
-
-I have several codes.
+I ended up with one wearable glove that contained 10 neopixels and would flash a series of colors that I picked.
 
 ## References and links 
 
